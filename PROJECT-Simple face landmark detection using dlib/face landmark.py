@@ -12,10 +12,10 @@ detector = dlib.get_frontal_face_detector()
 
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
-cap = cv2.VideoCapture()
+cap = cv2.VideoCapture(0)
 
-address = "http://192.168.1.4:8080/video"
-cap.open(address)
+# address = "http://192.168.1.4:8080/video"
+# cap.open(address)
 
 while True:
     _,frame = cap.read()

@@ -4,7 +4,7 @@ Created on Tue Feb 16 10:53:08 2021
 
 @author: shivam kumar
 """
-
+#import the required libraries
 import cv2
 import dlib
 
